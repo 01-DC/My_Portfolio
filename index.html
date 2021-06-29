@@ -12,11 +12,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Devanshu Chatterjee">
     <meta name="description" content="My Portfolio Website">
-    <title>My Portfolio Website</title>
+    <script src="particles.js"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link href="vecbg.css" rel="stylesheet">
+    <title>.::My Portfolio::.</title>
 </head>
 
-<body>
-    #[[$END$]]#
+<body class="overflow-x-hidden bg-black">
+    <nav class="fixed top-0 inset-x-0 z-30 bg-gray-500 bg-opacity-25 backdrop-filter backdrop-blur-lg">
+        <div class="flex items-center justify-between px-5 border-b border-gray-500">
+            <img src="img/DC Logo-white.png" alt="" class="h-14 py-2">
+            <div class="flex gap-3 text-red-600 font-semibold">
+                <a href="#About" class="bg-gray-800 p-1.5 rounded ring-1 ring-gray-500 hover:bg-gray-500 transition duration-300">About Me</a>
+                <a href="" class="bg-gray-800 p-1.5 rounded ring-1 ring-gray-500 hover:bg-gray-500 transition duration-300">Skills</a>
+                <a href="" class="bg-gray-800 p-1.5 rounded ring-1 ring-gray-500 hover:bg-gray-500 transition duration-300">Projects</a>
+                <a href="" class="bg-gray-800 p-1.5 rounded ring-1 ring-gray-500 hover:bg-gray-500 transition duration-300">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="particles-js" class="relative bg-grey-500 h-screen w-screen">
+        <script>
+            particlesJS.load('particles-js', 'particlesjs-config.json');
+        </script>
+        <div class="flex absolute items-center h-full w-full">
+            <div class="w-full flex justify-between items-center mx-14 px-20">
+                <div>
+                    <h1 class="text-white text-center font-semibold text-8xl"><span class="text-red-500">Hello</span>there!</h1>
+                    <h1 class="text-white text-center leading-normal text-5xl">I am Devanshu Chatterjee</h1>
+                    <h1 class="text-purple-500 text-center leading-normal text-lg">『Student』 『Audiophile』 『Coder』 『Otaku』</h1>
+                </div>
+                <img src="img/landing_photo.png" alt="" class="h-60">
+            </div>
+        </div>
+    </div>
+
+    <div class="w-screen h-0.5 bg-white animate-pulse"></div>
+
+    <div id="About" class="text-center p-20 h-screen w-screen">
+        <h1 class="text-white inline text-5xl border-b-2 border-t-2 border-purple-500">Nice to meet you<span class="text-red-500 text-bold">!</span></h1>
+    </div>
+
 </body>
 
 </html>
