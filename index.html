@@ -24,19 +24,22 @@
     <!-- NAVBAR -->
     <nav class="fixed top-0 inset-x-0 z-30 bg-gray-500 bg-opacity-25 backdrop-filter backdrop-blur">
         <div class="flex items-center justify-between px-5 border-b border-gray-500">
-            <img src="img/DC Logo-white.png" alt="" class="h-14 py-2 mx-6">
+            <img src="img/DC Logo-white.png" alt="" class="h-14 py-2 mx-6 animate-bounce">
             <div class="flex gap-3 text-white font-semibold pr-6">
-                <a href="" class="bg-red-700 p-1.5 rounded-lg ring-2 ring-purple-400 hover:bg-gray-500 transition duration-300">About Me</a>
-                <a href="" class="bg-red-700 p-1.5 rounded-lg ring-2 ring-purple-400 hover:bg-gray-500 transition duration-300">Projects</a>
-                <a href="#contact" class="bg-red-700 p-1.5 rounded-lg ring-2 ring-purple-400 hover:bg-gray-500 transition duration-300">Contact Me</a>
+                <a href="about.html" class="bg-red-700 p-1.5 rounded-lg ring-2 ring-purple-400 hover:bg-gray-500 transition duration-300">About Me</a>
+                <a href="projects.html" class="bg-red-700 p-1.5 rounded-lg ring-2 ring-purple-400 hover:bg-gray-500 transition duration-300">Projects</a>
+                <a href="#contact-anchor" class="bg-red-700 p-1.5 rounded-lg ring-2 ring-purple-400 hover:bg-gray-500 transition duration-300">Contact Me</a>
             </div>
         </div>
     </nav>
 
+    <!-- DIVIDER -->
+    <div class="w-screen h-0.5 bg-white animate-pulse"></div>
+    
     <!-- LANDING PAGE -->
     <div id="particles-js" class="relative h-screen w-screen">
 
-        <div class="absolute w-full h-full flex justify-center items-center pointer-events-none p-20">
+        <div class="absolute inset-0 flex justify-center items-center pointer-events-none p-20">
             <div class="p-12">
                 <h1 class="text-white text-center font-semibold text-8xl"><span class="text-red-500">Hello</span>there<span class=" pointer-events-auto transition duration-300 hover:text-red-500">!</span></h1>
                 <h1 class="text-white text-center leading-normal text-5xl">I am Devanshu Chatterjee</h1>
@@ -48,11 +51,11 @@
     </div>
 
     <!-- DIVIDER -->
-    <div class="w-screen h-0.5 bg-white animate-pulse"></div>
+    <div id="contact-anchor" class="w-screen h-0.5 bg-white animate-pulse"></div>
 
     <!-- CONTACT PAGE -->
     <div id="contact" class="text-center pt-20 h-screen w-screen">
-        <h1 class="text-white inline text-5xl border-b-2 border-t-2 border-purple-500">Get in touch<span class="text-red-500">!</span></h1>
+        <h1 class="text-white inline text-5xl border-b-2 border-t-2 border-purple-500 font-semibold">Get <span class="text-red-500">in</span> touch.</h1>
 
         <!-- CONTAINER -->
         <div class="bg-gray-700 h-4/6 rounded-3xl flex justify-center items-center space-x-24 m-20 backdrop-filter backdrop-blur-sm bg-opacity-25">

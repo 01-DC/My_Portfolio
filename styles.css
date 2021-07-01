@@ -6194,6 +6194,90 @@ video {
   display: none;
 }
 
+.hover\:block:hover{
+  display: block;
+}
+
+.hover\:inline-block:hover{
+  display: inline-block;
+}
+
+.hover\:inline:hover{
+  display: inline;
+}
+
+.hover\:flex:hover{
+  display: flex;
+}
+
+.hover\:inline-flex:hover{
+  display: inline-flex;
+}
+
+.hover\:table:hover{
+  display: table;
+}
+
+.hover\:inline-table:hover{
+  display: inline-table;
+}
+
+.hover\:table-caption:hover{
+  display: table-caption;
+}
+
+.hover\:table-cell:hover{
+  display: table-cell;
+}
+
+.hover\:table-column:hover{
+  display: table-column;
+}
+
+.hover\:table-column-group:hover{
+  display: table-column-group;
+}
+
+.hover\:table-footer-group:hover{
+  display: table-footer-group;
+}
+
+.hover\:table-header-group:hover{
+  display: table-header-group;
+}
+
+.hover\:table-row-group:hover{
+  display: table-row-group;
+}
+
+.hover\:table-row:hover{
+  display: table-row;
+}
+
+.hover\:flow-root:hover{
+  display: flow-root;
+}
+
+.hover\:grid:hover{
+  display: grid;
+}
+
+.hover\:inline-grid:hover{
+  display: inline-grid;
+}
+
+.hover\:contents:hover{
+  display: contents;
+}
+
+.hover\:list-item:hover{
+  display: list-item;
+}
+
+.hover\:hidden:hover{
+  display: none;
+}
+
 .h-0{
   height: 0px;
 }
@@ -9996,29 +10080,29 @@ video {
 
 @-webkit-keyframes bounce{
   0%, 100%{
-    transform: translateY(-25%);
-    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-            animation-timing-function: cubic-bezier(0.8,0,1,1);
+    transform: translateY(-3%);
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
 
   50%{
-    transform: none;
-    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-            animation-timing-function: cubic-bezier(0,0,0.2,1);
+    transform: translateY(3%);
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
 
 @keyframes bounce{
   0%, 100%{
-    transform: translateY(-25%);
-    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
-            animation-timing-function: cubic-bezier(0.8,0,1,1);
+    transform: translateY(-3%);
+    -webkit-animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
 
   50%{
-    transform: none;
-    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
-            animation-timing-function: cubic-bezier(0,0,0.2,1);
+    transform: translateY(3%);
+    -webkit-animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
 
@@ -10043,8 +10127,8 @@ video {
 }
 
 .animate-bounce{
-  -webkit-animation: bounce 1s infinite;
-          animation: bounce 1s infinite;
+  -webkit-animation: bounce 1s ease-in-out infinite;
+          animation: bounce 1s ease-in-out infinite;
 }
 
 .hover\:animate-none:hover{
@@ -10068,8 +10152,8 @@ video {
 }
 
 .hover\:animate-bounce:hover{
-  -webkit-animation: bounce 1s infinite;
-          animation: bounce 1s infinite;
+  -webkit-animation: bounce 1s ease-in-out infinite;
+          animation: bounce 1s ease-in-out infinite;
 }
 
 .cursor-auto{
@@ -37886,6 +37970,90 @@ video {
     display: none;
   }
 
+  .sm\:hover\:block:hover{
+    display: block;
+  }
+
+  .sm\:hover\:inline-block:hover{
+    display: inline-block;
+  }
+
+  .sm\:hover\:inline:hover{
+    display: inline;
+  }
+
+  .sm\:hover\:flex:hover{
+    display: flex;
+  }
+
+  .sm\:hover\:inline-flex:hover{
+    display: inline-flex;
+  }
+
+  .sm\:hover\:table:hover{
+    display: table;
+  }
+
+  .sm\:hover\:inline-table:hover{
+    display: inline-table;
+  }
+
+  .sm\:hover\:table-caption:hover{
+    display: table-caption;
+  }
+
+  .sm\:hover\:table-cell:hover{
+    display: table-cell;
+  }
+
+  .sm\:hover\:table-column:hover{
+    display: table-column;
+  }
+
+  .sm\:hover\:table-column-group:hover{
+    display: table-column-group;
+  }
+
+  .sm\:hover\:table-footer-group:hover{
+    display: table-footer-group;
+  }
+
+  .sm\:hover\:table-header-group:hover{
+    display: table-header-group;
+  }
+
+  .sm\:hover\:table-row-group:hover{
+    display: table-row-group;
+  }
+
+  .sm\:hover\:table-row:hover{
+    display: table-row;
+  }
+
+  .sm\:hover\:flow-root:hover{
+    display: flow-root;
+  }
+
+  .sm\:hover\:grid:hover{
+    display: grid;
+  }
+
+  .sm\:hover\:inline-grid:hover{
+    display: inline-grid;
+  }
+
+  .sm\:hover\:contents:hover{
+    display: contents;
+  }
+
+  .sm\:hover\:list-item:hover{
+    display: list-item;
+  }
+
+  .sm\:hover\:hidden:hover{
+    display: none;
+  }
+
   .sm\:h-0{
     height: 0px;
   }
@@ -41669,8 +41837,8 @@ video {
   }
 
   .sm\:animate-bounce{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .sm\:hover\:animate-none:hover{
@@ -41694,8 +41862,8 @@ video {
   }
 
   .sm\:hover\:animate-bounce:hover{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .sm\:cursor-auto{
@@ -69100,6 +69268,90 @@ video {
     display: none;
   }
 
+  .md\:hover\:block:hover{
+    display: block;
+  }
+
+  .md\:hover\:inline-block:hover{
+    display: inline-block;
+  }
+
+  .md\:hover\:inline:hover{
+    display: inline;
+  }
+
+  .md\:hover\:flex:hover{
+    display: flex;
+  }
+
+  .md\:hover\:inline-flex:hover{
+    display: inline-flex;
+  }
+
+  .md\:hover\:table:hover{
+    display: table;
+  }
+
+  .md\:hover\:inline-table:hover{
+    display: inline-table;
+  }
+
+  .md\:hover\:table-caption:hover{
+    display: table-caption;
+  }
+
+  .md\:hover\:table-cell:hover{
+    display: table-cell;
+  }
+
+  .md\:hover\:table-column:hover{
+    display: table-column;
+  }
+
+  .md\:hover\:table-column-group:hover{
+    display: table-column-group;
+  }
+
+  .md\:hover\:table-footer-group:hover{
+    display: table-footer-group;
+  }
+
+  .md\:hover\:table-header-group:hover{
+    display: table-header-group;
+  }
+
+  .md\:hover\:table-row-group:hover{
+    display: table-row-group;
+  }
+
+  .md\:hover\:table-row:hover{
+    display: table-row;
+  }
+
+  .md\:hover\:flow-root:hover{
+    display: flow-root;
+  }
+
+  .md\:hover\:grid:hover{
+    display: grid;
+  }
+
+  .md\:hover\:inline-grid:hover{
+    display: inline-grid;
+  }
+
+  .md\:hover\:contents:hover{
+    display: contents;
+  }
+
+  .md\:hover\:list-item:hover{
+    display: list-item;
+  }
+
+  .md\:hover\:hidden:hover{
+    display: none;
+  }
+
   .md\:h-0{
     height: 0px;
   }
@@ -72883,8 +73135,8 @@ video {
   }
 
   .md\:animate-bounce{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .md\:hover\:animate-none:hover{
@@ -72908,8 +73160,8 @@ video {
   }
 
   .md\:hover\:animate-bounce:hover{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .md\:cursor-auto{
@@ -100314,6 +100566,90 @@ video {
     display: none;
   }
 
+  .lg\:hover\:block:hover{
+    display: block;
+  }
+
+  .lg\:hover\:inline-block:hover{
+    display: inline-block;
+  }
+
+  .lg\:hover\:inline:hover{
+    display: inline;
+  }
+
+  .lg\:hover\:flex:hover{
+    display: flex;
+  }
+
+  .lg\:hover\:inline-flex:hover{
+    display: inline-flex;
+  }
+
+  .lg\:hover\:table:hover{
+    display: table;
+  }
+
+  .lg\:hover\:inline-table:hover{
+    display: inline-table;
+  }
+
+  .lg\:hover\:table-caption:hover{
+    display: table-caption;
+  }
+
+  .lg\:hover\:table-cell:hover{
+    display: table-cell;
+  }
+
+  .lg\:hover\:table-column:hover{
+    display: table-column;
+  }
+
+  .lg\:hover\:table-column-group:hover{
+    display: table-column-group;
+  }
+
+  .lg\:hover\:table-footer-group:hover{
+    display: table-footer-group;
+  }
+
+  .lg\:hover\:table-header-group:hover{
+    display: table-header-group;
+  }
+
+  .lg\:hover\:table-row-group:hover{
+    display: table-row-group;
+  }
+
+  .lg\:hover\:table-row:hover{
+    display: table-row;
+  }
+
+  .lg\:hover\:flow-root:hover{
+    display: flow-root;
+  }
+
+  .lg\:hover\:grid:hover{
+    display: grid;
+  }
+
+  .lg\:hover\:inline-grid:hover{
+    display: inline-grid;
+  }
+
+  .lg\:hover\:contents:hover{
+    display: contents;
+  }
+
+  .lg\:hover\:list-item:hover{
+    display: list-item;
+  }
+
+  .lg\:hover\:hidden:hover{
+    display: none;
+  }
+
   .lg\:h-0{
     height: 0px;
   }
@@ -104097,8 +104433,8 @@ video {
   }
 
   .lg\:animate-bounce{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .lg\:hover\:animate-none:hover{
@@ -104122,8 +104458,8 @@ video {
   }
 
   .lg\:hover\:animate-bounce:hover{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .lg\:cursor-auto{
@@ -131528,6 +131864,90 @@ video {
     display: none;
   }
 
+  .xl\:hover\:block:hover{
+    display: block;
+  }
+
+  .xl\:hover\:inline-block:hover{
+    display: inline-block;
+  }
+
+  .xl\:hover\:inline:hover{
+    display: inline;
+  }
+
+  .xl\:hover\:flex:hover{
+    display: flex;
+  }
+
+  .xl\:hover\:inline-flex:hover{
+    display: inline-flex;
+  }
+
+  .xl\:hover\:table:hover{
+    display: table;
+  }
+
+  .xl\:hover\:inline-table:hover{
+    display: inline-table;
+  }
+
+  .xl\:hover\:table-caption:hover{
+    display: table-caption;
+  }
+
+  .xl\:hover\:table-cell:hover{
+    display: table-cell;
+  }
+
+  .xl\:hover\:table-column:hover{
+    display: table-column;
+  }
+
+  .xl\:hover\:table-column-group:hover{
+    display: table-column-group;
+  }
+
+  .xl\:hover\:table-footer-group:hover{
+    display: table-footer-group;
+  }
+
+  .xl\:hover\:table-header-group:hover{
+    display: table-header-group;
+  }
+
+  .xl\:hover\:table-row-group:hover{
+    display: table-row-group;
+  }
+
+  .xl\:hover\:table-row:hover{
+    display: table-row;
+  }
+
+  .xl\:hover\:flow-root:hover{
+    display: flow-root;
+  }
+
+  .xl\:hover\:grid:hover{
+    display: grid;
+  }
+
+  .xl\:hover\:inline-grid:hover{
+    display: inline-grid;
+  }
+
+  .xl\:hover\:contents:hover{
+    display: contents;
+  }
+
+  .xl\:hover\:list-item:hover{
+    display: list-item;
+  }
+
+  .xl\:hover\:hidden:hover{
+    display: none;
+  }
+
   .xl\:h-0{
     height: 0px;
   }
@@ -135311,8 +135731,8 @@ video {
   }
 
   .xl\:animate-bounce{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .xl\:hover\:animate-none:hover{
@@ -135336,8 +135756,8 @@ video {
   }
 
   .xl\:hover\:animate-bounce:hover{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .xl\:cursor-auto{
@@ -162742,6 +163162,90 @@ video {
     display: none;
   }
 
+  .\32xl\:hover\:block:hover{
+    display: block;
+  }
+
+  .\32xl\:hover\:inline-block:hover{
+    display: inline-block;
+  }
+
+  .\32xl\:hover\:inline:hover{
+    display: inline;
+  }
+
+  .\32xl\:hover\:flex:hover{
+    display: flex;
+  }
+
+  .\32xl\:hover\:inline-flex:hover{
+    display: inline-flex;
+  }
+
+  .\32xl\:hover\:table:hover{
+    display: table;
+  }
+
+  .\32xl\:hover\:inline-table:hover{
+    display: inline-table;
+  }
+
+  .\32xl\:hover\:table-caption:hover{
+    display: table-caption;
+  }
+
+  .\32xl\:hover\:table-cell:hover{
+    display: table-cell;
+  }
+
+  .\32xl\:hover\:table-column:hover{
+    display: table-column;
+  }
+
+  .\32xl\:hover\:table-column-group:hover{
+    display: table-column-group;
+  }
+
+  .\32xl\:hover\:table-footer-group:hover{
+    display: table-footer-group;
+  }
+
+  .\32xl\:hover\:table-header-group:hover{
+    display: table-header-group;
+  }
+
+  .\32xl\:hover\:table-row-group:hover{
+    display: table-row-group;
+  }
+
+  .\32xl\:hover\:table-row:hover{
+    display: table-row;
+  }
+
+  .\32xl\:hover\:flow-root:hover{
+    display: flow-root;
+  }
+
+  .\32xl\:hover\:grid:hover{
+    display: grid;
+  }
+
+  .\32xl\:hover\:inline-grid:hover{
+    display: inline-grid;
+  }
+
+  .\32xl\:hover\:contents:hover{
+    display: contents;
+  }
+
+  .\32xl\:hover\:list-item:hover{
+    display: list-item;
+  }
+
+  .\32xl\:hover\:hidden:hover{
+    display: none;
+  }
+
   .\32xl\:h-0{
     height: 0px;
   }
@@ -166525,8 +167029,8 @@ video {
   }
 
   .\32xl\:animate-bounce{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .\32xl\:hover\:animate-none:hover{
@@ -166550,8 +167054,8 @@ video {
   }
 
   .\32xl\:hover\:animate-bounce:hover{
-    -webkit-animation: bounce 1s infinite;
-            animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s ease-in-out infinite;
+            animation: bounce 1s ease-in-out infinite;
   }
 
   .\32xl\:cursor-auto{
