@@ -31734,6 +31734,23 @@ video {
   filter: none;
 }
 
+.hover\:filter:hover{
+  --tw-blur: var(--tw-empty,/*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
+  --tw-invert: var(--tw-empty,/*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:filter-none:hover{
+  filter: none;
+}
+
 .blur-0{
   --tw-blur: blur(0);
 }
@@ -31875,6 +31892,14 @@ video {
 }
 
 .grayscale{
+  --tw-grayscale: grayscale(100%);
+}
+
+.hover\:grayscale-0:hover{
+  --tw-grayscale: grayscale(0);
+}
+
+.hover\:grayscale:hover{
   --tw-grayscale: grayscale(100%);
 }
 
@@ -63095,6 +63120,23 @@ video {
     filter: none;
   }
 
+  .sm\:hover\:filter:hover{
+    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
+    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
+    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
+    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
+    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
+    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
+    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .sm\:hover\:filter-none:hover{
+    filter: none;
+  }
+
   .sm\:blur-0{
     --tw-blur: blur(0);
   }
@@ -63236,6 +63278,14 @@ video {
   }
 
   .sm\:grayscale{
+    --tw-grayscale: grayscale(100%);
+  }
+
+  .sm\:hover\:grayscale-0:hover{
+    --tw-grayscale: grayscale(0);
+  }
+
+  .sm\:hover\:grayscale:hover{
     --tw-grayscale: grayscale(100%);
   }
 
@@ -94393,6 +94443,23 @@ video {
     filter: none;
   }
 
+  .md\:hover\:filter:hover{
+    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
+    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
+    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
+    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
+    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
+    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
+    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .md\:hover\:filter-none:hover{
+    filter: none;
+  }
+
   .md\:blur-0{
     --tw-blur: blur(0);
   }
@@ -94534,6 +94601,14 @@ video {
   }
 
   .md\:grayscale{
+    --tw-grayscale: grayscale(100%);
+  }
+
+  .md\:hover\:grayscale-0:hover{
+    --tw-grayscale: grayscale(0);
+  }
+
+  .md\:hover\:grayscale:hover{
     --tw-grayscale: grayscale(100%);
   }
 
@@ -125691,6 +125766,23 @@ video {
     filter: none;
   }
 
+  .lg\:hover\:filter:hover{
+    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
+    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
+    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
+    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
+    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
+    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
+    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .lg\:hover\:filter-none:hover{
+    filter: none;
+  }
+
   .lg\:blur-0{
     --tw-blur: blur(0);
   }
@@ -125832,6 +125924,14 @@ video {
   }
 
   .lg\:grayscale{
+    --tw-grayscale: grayscale(100%);
+  }
+
+  .lg\:hover\:grayscale-0:hover{
+    --tw-grayscale: grayscale(0);
+  }
+
+  .lg\:hover\:grayscale:hover{
     --tw-grayscale: grayscale(100%);
   }
 
@@ -156989,6 +157089,23 @@ video {
     filter: none;
   }
 
+  .xl\:hover\:filter:hover{
+    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
+    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
+    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
+    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
+    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
+    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
+    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .xl\:hover\:filter-none:hover{
+    filter: none;
+  }
+
   .xl\:blur-0{
     --tw-blur: blur(0);
   }
@@ -157130,6 +157247,14 @@ video {
   }
 
   .xl\:grayscale{
+    --tw-grayscale: grayscale(100%);
+  }
+
+  .xl\:hover\:grayscale-0:hover{
+    --tw-grayscale: grayscale(0);
+  }
+
+  .xl\:hover\:grayscale:hover{
     --tw-grayscale: grayscale(100%);
   }
 
@@ -188287,6 +188412,23 @@ video {
     filter: none;
   }
 
+  .\32xl\:hover\:filter:hover{
+    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
+    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
+    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
+    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
+    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
+    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
+    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .\32xl\:hover\:filter-none:hover{
+    filter: none;
+  }
+
   .\32xl\:blur-0{
     --tw-blur: blur(0);
   }
@@ -188428,6 +188570,14 @@ video {
   }
 
   .\32xl\:grayscale{
+    --tw-grayscale: grayscale(100%);
+  }
+
+  .\32xl\:hover\:grayscale-0:hover{
+    --tw-grayscale: grayscale(0);
+  }
+
+  .\32xl\:hover\:grayscale:hover{
     --tw-grayscale: grayscale(100%);
   }
 
